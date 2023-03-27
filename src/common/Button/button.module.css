@@ -1,0 +1,50 @@
+.button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  opacity: 75%;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.default {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.success {
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.danger {
+  color: #fff;
+  background-color: #f44336;
+}
+
+.disabled {
+  opacity: 75%;
+  background-color: rgb(107 114 128);
+}
+
+.large {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
